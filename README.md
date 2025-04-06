@@ -130,7 +130,6 @@ This project includes a pre-seeded user table with **realistic accounts** for te
 |`rootkitz`|`root123`|user|Useful for account enumeration or brute-force scenarios.|
 |`xssqueen`|`s3cure!`|user|Submit stored XSS reviews using this account.|
 |`sqlinjector`|`dropdb`|user|Ideal for blind/time-based injection testing.|
-|`josegpacheco`|`password`|user|Created in final walkthrough.|
 
 ---
 
