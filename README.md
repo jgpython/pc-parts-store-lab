@@ -21,8 +21,6 @@ This lab provides hands-on experience with:
 
 ## 📦 Project Structure
 
-## 📦 Project Structure
-
 ```
 pc-parts-store/
 ├── admin/                 # Admin interface (no access control, IDOR, user deletion via GET)
