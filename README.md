@@ -179,6 +179,7 @@ Explore the core vulnerabilities intentionally built into this application. Thes
 |**Login Bypass via SQLi**|Use this payload in the **username** field:  <br>`admin' --`  <br>Password can be anything|Proves that the login query is injectable. This bypasses password checks and grants access.|
 |**Plaintext Credential Exposure**|View `includes/db.php` or inspect network traffic|Demonstrates poor password storage and hardcoded DB credentials. No hashing or encryption used.|
 |**Credit Card Data Capture (Raw)**|Visit `checkout.php`, fill in any values, inspect traffic|Reveals insecure transmission of sensitive data (e.g., credit cards) with no HTTPS enforcement or session validation.|
+
 💡 **Tip:** Tools like **Burp Suite**, **sqlmap**, **Postman**, and browser dev tools (Storage tab, Console) are perfect for testing this site’s intentional flaws.
 
 ---
