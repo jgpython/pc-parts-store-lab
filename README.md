@@ -76,11 +76,13 @@ pc-parts-store/
 
 ## 🔧 Setup Instructions
 
+
 ### 🖥️ Requirements
 - PHP 7.x/8.x  
 - MariaDB / MySQL  
 - Apache2 or Nginx  
 - `sqlmap`, `curl` (optional for testing)
+
 
 ### 📥 Clone the Project
 ```bash
@@ -110,9 +112,11 @@ Access the site in your browser at:
 
 ---
 
+
 ## 🧪 Built-in Test Users
 
 This project includes a pre-seeded user table with **realistic accounts** for testing login flows, role-based access, and authentication bypass techniques (e.g. SQLi). All credentials are **plaintext** and designed for demo or red-team testing only.
+
 
 |Username|Password|Role|Description|
 |---|---|---|---|
@@ -130,6 +134,7 @@ This project includes a pre-seeded user table with **realistic accounts** for te
 
 ---
 
+
 ### 🔐 Features Each Role Has Access To:
 
 |Feature|`user` Role|`admin` Role|
@@ -145,6 +150,7 @@ This project includes a pre-seeded user table with **realistic accounts** for te
 
 ---
 
+
 ### 🎯 Recommended Tests Using These Accounts
 
 - Try logging in as `admin' --` for SQL Injection bypass
@@ -157,9 +163,11 @@ This project includes a pre-seeded user table with **realistic accounts** for te
 
 ---
 
+
 ## 🚀 Suggested Testing Scenarios
 
 Explore the core vulnerabilities intentionally built into this application. These scenarios are great for CTFs, red team exercises, or educational penetration testing labs.
+
 
 |🔍 **Test**|🧪 **How to Perform**|⚠️ **What It Reveals**|
 |---|---|---|
@@ -175,6 +183,7 @@ Explore the core vulnerabilities intentionally built into this application. Thes
 💡 **Tip:** Tools like **Burp Suite**, **sqlmap**, **Postman**, and browser dev tools (Storage tab, Console) are perfect for testing this site’s intentional flaws.
 
 ---
+
 
 ## 📁 Sample SQLMap Usage
 
