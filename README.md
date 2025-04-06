@@ -9,6 +9,22 @@
 
 ---
 
+## 📸 Screenshots
+
+A quick preview of the PC Parts Store interface:
+
+| Home Page | Product Listing |
+|-----------|-----------------|
+| ![Home](screenshots/home.png) | ![Products](screenshots/products.png) |
+
+| Cart Page | Admin Dashboard |
+|-----------|------------------|
+| ![Cart](screenshots/cart.png) | ![Admin](screenshots/admin.png) |
+
+
+
+---
+
 ## 🧪 Purpose
 This lab provides hands-on experience with:
 - Offensive web exploitation (SQLi, XSS, IDOR, CSRF, etc.)
