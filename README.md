@@ -86,7 +86,7 @@ pc-parts-store/
 
 ### 📥 Clone the Project
 ```bash
-git clone https://github.com/YOURNAME/pc-parts-store.git
+git clone https://github.com/jgpython/pc-parts-store.git
 cd pc-parts-store
 ```
 
